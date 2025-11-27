@@ -1,4 +1,4 @@
-# Retail Analytics Copilot — Project Overview
+# Retail Analytics Copilot  Project Overview
 
 ## Project Purpose
 This project implements a local AI agent for retail analytics using:
