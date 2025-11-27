@@ -9,14 +9,16 @@ This project implements a local AI agent for retail analytics using:
 The goal is to answer analytics questions with typed, auditable answers and citations.
 
 ## Project Structure
+
+```markdown
 retail_copilot/
 ├─ agent/
-│ ├─ graph_hybrid.py # LangGraph implementation (≥6 nodes + repair loop)
-│ ├─ dspy_modules.py # DSPy modules (Router / NL→SQL / Synthesizer)
-│ ├─ rag/retrieval.py # Document retriever (TF-IDF / BM25)
-│ └─ tools/sqlite_tool.py # SQLite DB access and schema introspection
+│ ├─ graph_hybrid.py
+│ ├─ dspy_modules.py
+│ ├─ rag/retrieval.py
+│ └─ tools/sqlite_tool.py
 ├─ data/
-│ └─ northwind.sqlite # Northwind sample database
+│ └─ northwind.sqlite
 ├─ docs/
 │ ├─ marketing_calendar.md
 │ ├─ kpi_definitions.md
@@ -26,6 +28,7 @@ retail_copilot/
 ├─ run_agent_hybrid.py
 ├─ requirements.txt
 └─ README.md
+```
 
 ## DSPy Module Optimizations
 - **Optimized Module:** `synthesizer`
